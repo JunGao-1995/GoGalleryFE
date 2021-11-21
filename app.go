@@ -11,5 +11,5 @@ func main() {
 	r.Static("/static", "./dist/static") // 添加资源路径
 	r.StaticFile("/", "dist/index.html") //前端接口
 
-	r.Run(":80")
+	r.Run(":8070")
 }
